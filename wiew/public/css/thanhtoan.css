@@ -1,0 +1,322 @@
+
+ .content-thanhtoan h1 {
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+
+.content-thanhtoan{
+    max-width: 75%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 4em;
+}
+.content-thanhtoan .left{
+    padding-top: 1em;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+} 
+.content-thanhtoan .left .tieude h1{
+    font-size: 110%;
+    font-weight: 600;
+}
+.content-thanhtoan .left > div{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.content-thanhtoan .left > div > p{
+    position: absolute;
+    bottom: -10px;
+    font-size: 80%;
+    color: red;
+    text-indent: 5px;
+}
+
+.content-thanhtoan .left div label{
+    font-weight: 700;
+    margin-bottom: 0.3em;
+    font-size: 83%;
+}
+
+.content-thanhtoan .left input[class=form-input]{
+    margin-bottom: 2em;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 1px  rgb(131, 131, 131);
+    height: 44px;
+    text-indent: 1em;
+    font-size: 90%;
+}
+
+
+.diachi {
+    margin-bottom: 2em;
+}
+.diachi p{
+    margin-bottom: 0;
+}
+.diachi label{
+    font-size: 90%;
+}
+.box-timkiem-tinhthanhpho ,  .box-timkiem-quanhuyen  , .box-timkiem-phuongxa {
+    position: relative;
+}
+ .box-timkiem-tinhthanhpho .tieude ,  .box-timkiem-quanhuyen  .tieude  ,  .box-timkiem-phuongxa  .tieude{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding:  10px 10px;
+    box-shadow: 0px 0px 1px  rgb(131, 131, 131);
+    cursor: pointer;
+    font-size: 85%;
+    margin-top: 3px;
+}
+ .box-timkiem-tinhthanhpho .content ,  .box-timkiem-quanhuyen  .content ,  .box-timkiem-phuongxa  .content {
+    width: 100%;
+    position: absolute;
+    top: 110%;
+    z-index: 1000;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    display: none;
+}
+ .box-timkiem-tinhthanhpho .content input , .box-timkiem-quanhuyen .content input ,  .box-timkiem-phuongxa .content input{
+    width: 98%;
+    padding: 0.5em;
+    height: 50px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgb(240, 239, 239);
+    text-indent: 1em;
+    border-radius: 2px;
+}
+.box-timkiem-tinhthanhpho .content ul , .box-timkiem-quanhuyen .content ul , .box-timkiem-phuongxa .content ul{
+    width: 100%;
+    margin-top: 1em;
+    max-height: 350px;
+    overflow: scroll;
+    padding: 0;
+}
+.diachi .box-timkiem-tinhthanhpho .content ul::-webkit-scrollbar{
+    width: 5px;       
+ }
+ .diachi .box-timkiem-tinhthanhpho .content ul::-webkit-scrollbar-thumb{
+    border-radius: 5px;
+    background-color: silver;
+    box-shadow: inset 0 0 5px silver;
+ }
+ .diachi .box-timkiem-quanhuyen .content ul::-webkit-scrollbar{
+    width: 5px;       
+ }
+ .diachi .box-timkiem-quanhuyen .content ul::-webkit-scrollbar-thumb{
+    border-radius: 5px;
+    background-color: silver;
+    box-shadow: inset 0 0 5px silver;
+ }
+ .diachi .box-timkiem-phuongxa .content ul::-webkit-scrollbar{
+    width: 5px;       
+ }
+ .diachi .box-timkiem-phuongxa .content ul::-webkit-scrollbar-thumb{
+    border-radius: 5px;
+    background-color: silver;
+    box-shadow: inset 0 0 5px silver;
+ }
+ .box-timkiem-tinhthanhpho .content ul li ,  .box-timkiem-quanhuyen .content ul li ,  .box-timkiem-phuongxa .content ul li{
+    list-style: none;
+    width: 100%;
+    padding: 0.3em 15px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+ .box-timkiem-tinhthanhpho .content ul li:hover ,  .box-timkiem-quanhuyen .content ul li:hover ,  .box-timkiem-phuongxa .content ul li:hover{
+    background-color: #cce5ff;
+    border-color: #b8daff ;
+}
+
+
+.content-thanhtoan .left > div > input:focus{
+    box-shadow: 0px 0px 6px #cce5ff;
+    border-color: #b8daff;
+    border: 1px solid #c7dcf3;
+}
+.content-thanhtoan .left textarea{
+    height: 150px;
+    box-shadow: inset 0px 0px 2px rgb(177, 177, 177);
+    border: none;
+    outline: none;
+    padding: 0.5em 1em;
+    font-size: 90%;
+}
+.content-thanhtoan .right{
+    width: 40%;
+    border: 1px solid rgb(173, 169, 169);
+    padding: 0.5em 2em;
+    padding-bottom: 2em;
+}
+.content-thanhtoan .right h1{
+    font-size: 110%;
+    margin: 0.7em 0;
+    font-weight: 600;
+
+}
+.content-thanhtoan .right .top{
+    display: flex;
+    justify-content: space-between;
+    font-size: 75%;
+    font-weight: 600;
+    border-bottom: 2px solid rgb(221, 221, 221);
+    margin-bottom: 0;
+}
+
+.content-thanhtoan .right .main ul{
+    padding: 0.5em;
+    margin: 0;
+    max-height: 400px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.content-thanhtoan .right .main ul::-webkit-scrollbar{
+    width: 1px;       
+ }
+ .content-thanhtoan .right .main ul::-webkit-scrollbar-thumb{
+    border-radius: 5px;
+    background-color: rgb(218, 218, 218);
+    box-shadow: inset 0 0 5px rgb(218, 218, 218);
+ }
+.content-thanhtoan .right .main ul li{
+    list-style: none;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(226, 226, 226);
+    padding-bottom: 2.5em;
+    padding-top: 0.7em;
+}
+.content-thanhtoan .right .main ul li .box-left{
+    display: flex;
+    align-items: center;
+    max-width: 70%;
+}
+.content-thanhtoan .right .main ul li img{
+    width: 50px;
+    height: 55px;
+}
+.content .right .main ul li p{
+    margin: 0;
+}
+.content-thanhtoan .right .main ul li .tensp{
+    font-size: 80%;
+    width: 51%;
+    font-weight: 400;
+    margin-left: 3%;
+    color: rgb(129, 129, 129);
+}
+.content-thanhtoan .right .main ul li .tensp span{
+    font-weight: 500;
+    font-size: 110%;
+}
+.content-thanhtoan .right .main ul li .tensp span.x{
+    font-size: 70%;
+    margin-left: 5px;
+}
+
+.content-thanhtoan .right .main ul li .giasp{
+    font-size: 90%;
+    font-weight: 600;
+    margin-left: 3%;
+}
+
+
+.content-thanhtoan .right .tamtinh , .content-thanhtoan .right .hinhthucgiaohang , .content-thanhtoan .right .tong{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5em 0;
+    border-bottom: 1px solid rgb(226, 226, 226);
+
+}
+.content-thanhtoan .right .tamtinh p{
+    font-size: 90%;
+    font-weight: 500;
+    margin: 0;
+
+}
+.content-thanhtoan .right .hinhthucgiaohang p {
+    margin:  0;
+    font-size: 90%;
+    font-weight: 500;
+    color: rgb(80, 80, 80);
+
+}
+.content-thanhtoan .right .hinhthucgiaohang p:last-child{
+    font-size: 85%;
+    font-weight: 400;
+
+}
+.content-thanhtoan .right .tong{
+    border-bottom: 2px solid rgb(226, 226, 226);
+
+}
+.content-thanhtoan .right .tong p{
+    margin: 0;
+    font-weight: 500;
+    font-size: 90%  ;
+
+}
+
+.content-thanhtoan .right .bot .box div:first-child{
+    display: flex;
+    padding: 0.5em 0;
+}
+.content-thanhtoan .right .bot .box:first-child{
+    border-bottom: 1px solid rgb(236, 236, 236);
+}
+.content-thanhtoan .right .bot .box div:first-child input{
+    margin-right: 0.8em;
+    transform: translateY(6px);
+}
+.content-thanhtoan .right .bot .box div:first-child p{
+    font-size: 90%;
+    font-weight: 600;
+    margin: 0;
+}
+.content-thanhtoan .right .bot .box div:last-child{
+    padding: 0.5em 0;
+    padding-top: 0;
+}
+.content-thanhtoan .right .bot .box div:last-child p{
+    margin: 0;
+    font-size: 80%;
+    font-weight: 400;
+}
+.content-thanhtoan .right .bot #submit-thanhtoan{
+    height: 40px;
+    width: 110px;
+    margin-top: 1em;
+    font-weight: 500;
+    background-color: #b80a0d;
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 95%;
+    transition: 0.2s;
+}
+.content-thanhtoan .right .bot .box label{
+    font-size: 95%;
+    font-weight: 500;
+    cursor: pointer;    
+}
+.content-thanhtoan .right .bot #submit-thanhtoan:hover{
+    background-color: #cc0e11;
+
+}

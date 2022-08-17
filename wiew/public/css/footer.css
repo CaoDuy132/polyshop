@@ -1,0 +1,81 @@
+::selection {
+    background: #b80a0d;
+    color: white;
+
+}
+::-webkit-selection {
+    background: #b80a0d;
+    color: white;
+}
+::-moz-selection {
+background: #b80a0d;
+color: white;
+}
+footer{
+    margin-top: 5em;
+    padding-top: 2.5em;
+    width: 100%;
+    height: auto;
+    border-top: 1px solid rgb(240, 239, 239);
+}
+footer .noidung{
+    width: 73%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+footer .noidung .box{
+    min-height: 380px;
+    width: 22%; 
+    display: flex;
+    flex-direction: column;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+    font-size: 95%;
+    transition: 0.3s;
+}
+footer .noidung .box h1{
+    font-size: 130%;
+    font-weight: bold;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+footer .noidung .box span{
+    width: 30px;
+    border-bottom: 3.5px solid #b80a0d;
+    margin: 0.6em 0;
+}
+footer .noidung .box p{
+    font-size: 95%;
+    text-align: justify;
+}
+footer .noidung .box ul{
+    padding: 0;
+}
+footer .noidung .box ul li{
+    list-style: none;
+    margin-top: 0.8em;
+}
+
+.sanphammoi h1:hover{
+    color: #bba277;
+    transition: 0.2s;
+}
+footer a:hover{
+    color: #b80a0d;
+}
+footer .copy-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.8em 0;
+    border-top: 1px solid rgb(240, 239, 239);
+    text-align: center;
+}
+footer .copy-right p{
+    margin-bottom: 0;
+    font-size: 85%;
+}

@@ -1,0 +1,98 @@
+/* load website */
+section#load    {
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+    min-height: 215px;
+    vertical-align: top;
+    border-radius: 5px;
+    position: fixed;
+    top: 260px;
+    left: 45%;
+    z-index: 1000;
+    display: none;
+ 
+ }
+ .loader {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 75px;
+    display: inline-block;
+    vertical-align: middle;
+ }
+ 
+ /*LOADER-1*/
+ 
+ .loader-1 .loader-outter {
+    position: absolute;
+    border: 3px solid #e96b6d;
+    border-left-color: transparent;
+    border-bottom: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    -webkit-animation: loader-1-outter 1s cubic-bezier(.42, .61, .58, .41) infinite;
+    animation: loader-1-outter 1s cubic-bezier(.42, .61, .58, .41) infinite;
+ }
+ 
+ .loader-1 .loader-inner {
+    position: absolute;
+    border: 3px solid #e96b6d;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    left: calc(50% - 12px);
+    top: calc(45% - 11px);
+    border-right: 0;
+    border-top-color: transparent;
+    -webkit-animation: loader-1-inner 1s cubic-bezier(.42, .61, .58, .41) infinite;
+    animation: loader-1-inner 1s cubic-bezier(.42, .61, .58, .41) infinite;
+ }
+ 
+ @-webkit-keyframes loader-1-outter {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+ }
+ 
+ @keyframes loader-1-outter {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+ }
+ 
+ @-webkit-keyframes loader-1-inner {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(-360deg);
+        transform: rotate(-360deg);
+    }
+ }
+ 
+ @keyframes loader-1-inner {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(-360deg);
+        transform: rotate(-360deg);
+    }
+ }
+ 
+ /* end load website */

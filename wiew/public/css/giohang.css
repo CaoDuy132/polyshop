@@ -1,0 +1,241 @@
+
+input[type='number'] {
+    -moz-appearance:textfield;
+}
+.content h1{
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+.new-cart{
+    color: #7a9c59;
+    font-size: 100%;
+    font-weight: 400;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.content{
+    max-width: 1100px;
+    margin: auto;
+    padding-top: 2em;
+}
+.content .top h1{
+    font-size: 140%;
+    font-weight: 700;
+}
+.content .main{
+    margin-top: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.content .main .left{
+    width: 60%;
+    min-height: 250px;
+    padding-right: 1.5em;
+
+}
+.content .main .left .top{
+    display: flex;
+    border-bottom: 3px solid rgb(236, 236, 236);
+}
+.content .main .left .top h1{
+    font-size: 90%;
+    font-weight: 600;
+}
+.content .main .left .top .gia{
+    margin-left: 48%;
+}
+.content .main .left .top .soluong{
+    margin-left: 11%;
+}
+.content .main .left .top .tamtinh{
+    margin-left: 6%;
+}
+.content .main .left .bot ul{
+    padding: 0;
+    margin: 0;
+    max-height: 470px;
+    overflow: scroll;
+}
+ #card-loaded::-webkit-scrollbar{
+    width: 2px;       
+ }
+ #card-loaded::-webkit-scrollbar-thumb{
+    border-radius: 5px;
+    background-color: rgb(218, 218, 218);
+    box-shadow: inset 0 0 5px rgb(218, 218, 218);
+ }
+.content .main .left .bot ul li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid rgb(230, 230, 230);
+    padding: 1em 0.5em;
+}
+.content .main .left .bot ul li p{
+    font-size: 85%;
+    margin-bottom: 0;
+    margin-left: 5px;
+
+}
+.content .main .left .bot ul li .xoa{
+    width: 25px; height: 25px;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50%;
+    font-weight: 900;
+    opacity: 20%;
+}
+
+.content .main .left .bot ul li .xoa:hover{
+    opacity: 60%;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.content .main .left .bot ul li img{
+    height: 80px;
+    width: 70px;
+    margin-left: 10px;
+}
+.content .main .left .bot ul li .box-thongtinsp{
+    margin-left: 15px;
+
+}
+.content .main .left .bot ul li .box-thongtinsp .size{
+    font-size: 80%;
+    margin-top: 5px;
+}
+
+.content .main .left .bot ul li .tensp{
+    height: auto;
+    width: 180px;
+
+}
+.content .main .left .bot ul li  .giasp , .content .main .left .bot ul li  .tamtinh{
+    font-weight: 600;
+    font-size: 95%;
+    width: 120px;
+}
+
+.content .main .left .bot ul li input{
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    border: 1px solid silver;
+    outline: none;
+    border-left: none;
+    font-size: 85%;
+}
+.content .main .left .bot ul li .right{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    min-width: 200px;
+    margin-left: 2em;
+}
+.content .main .left .bot ul li .right .btn-tru , .content .main .left .bot ul li .right  .tamtinh{
+    margin-left: 20px;
+}
+.content .main .left .bot ul li .right  .tamtinh , .content .main .left .bot ul li .right  .giasp{
+    font-size: 85%;
+    color: #b80a0d;
+}
+.content .main .left .bot ul li .right .btn-tru{
+    margin-left: 10px;
+}
+.content .main .left .bot ul li .right .btn-cong{
+    margin-left: -2px;
+}
+.content .main .left .bot ul li span{
+    width: 20px;
+    height: 35px;
+    border: 1px solid rgb(218, 218, 218);
+    background-color: #f9f9f9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 80%;
+}
+
+.content .main .left .bot ul li span:hover{
+    background-color: #f0f0f0;
+}
+.content .main > .right{
+    width: 40%;
+    border-left: 1px solid rgb(233, 233, 233);
+    min-height: 250px;
+    padding-left: 1.5em;
+
+}
+.content .main > .right .top{
+    display: flex;
+    border-bottom: 3px solid rgb(236, 236, 236);
+}
+.content .main > .right .top h1{
+    font-size: 90%;
+    font-weight: 600;
+}
+.content .main > .right .bot div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1em;
+}
+
+.content .main > .right .bot div  p{
+    color: rgb(83, 81, 74);
+}
+.content .main > .right .bot .tamtinh{
+    margin-top: 1em;
+    border-bottom: 1px solid rgb(230, 230, 230);
+    padding-bottom: 5px;
+
+}
+.content .main > .right .bot .tinhphi{
+    justify-content: flex-end;
+}
+.content .main > .right .bot .rate{
+    justify-content: flex-end;
+}
+.content .main > .right .bot div p{
+    font-size: 83%;
+    margin-bottom: 0;
+}
+.content .main > .right .bot .tong{
+    border-bottom: 3px solid rgb(236, 236, 236);
+    padding-bottom: 0.5em;
+}
+.content .main > .right .bot .tienhanhthanhtoan{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    background-color: #b80a0d;
+    transition: 0.2s;
+}
+.content .main > .right .bot .tienhanhthanhtoan:hover{
+    background-color: #c70b0e;
+}
+.content .main > .right .bot .tienhanhthanhtoan a{
+    font-size: 95%;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 250%;
+  
+}
+

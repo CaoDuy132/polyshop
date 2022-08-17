@@ -1,0 +1,147 @@
+
+
+ .chitietsanpham{
+     width: 100%;
+     padding: 2em 3em;
+ }
+ .chitietsanpham form .top{
+     display: flex;
+     flex-direction: column;
+
+ }
+
+ .form-group {
+     margin-top: 1em;
+     width: 100%;
+ }
+ .form-group label{
+     margin-bottom: 0.3em;
+     font-weight: 500;
+ }
+ .form-group .erro{
+     display: none;
+ }
+
+ .box-mausac{
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+     
+ }
+
+ .close-box-mausac{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+ }
+ .item-mausac{
+     margin-bottom: 0.7em;
+     display: flex;
+     flex-direction: column;
+     padding-bottom: 1.5em;
+     border-bottom: 1px solid rgb(224, 224, 224);
+ }
+ .wrapper-anhdaidien{
+     display: flex;
+ }
+ .box-anhdaidien{
+     margin-top: 1.5em;
+     display: flex;
+     align-items: center;
+ }
+ .box-mamau{
+     margin-left: 2em;
+     max-width: 60%;
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-end;
+ }
+ .box-anhdaidien img{
+    width: 150px;
+    height: 200px;
+     margin-right: 15px;
+ }
+
+ .wrapper-box-anhmota{
+     display: flex;
+     align-items: center;
+     flex-wrap: wrap;
+ }
+ 
+ .box-listanhmota{
+     display: flex;
+     flex-wrap: wrap;
+     flex-direction: row;
+     align-items: center;
+ }
+
+ .wrapper-box-anhmota  .box-themanh{
+    width: 150px;
+    height: 200px;
+    margin-right: 1.5em;
+    margin-top: 1.5em;
+    border: 2px dashed silver;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+ }
+ .wrapper-box-anhmota .box-themanh i{
+    cursor: pointer;
+    color: silver;
+    font-size: 120%;
+ }
+ .box-listanhmota  .box-anhmota{
+     width: 150px;
+     height: 200px;
+     margin-right: 1.5em;
+     margin-top: 1.5em;
+     position: relative;
+ }
+ .box-listanhmota  .box-anhmota img{
+     height: 100%;
+     width: 100%;
+ }
+
+ .box-listanhmota  .box-anhmota .btn-close{
+     position: absolute;
+     top: 0px;
+     right: 0px;
+     cursor: pointer;
+     font-size: 70%;
+ }
+
+ .box-item-size{
+     position: relative;
+ }
+ .box-item-size .btn-close{
+     left: 50%;
+     top: 0;
+     position: absolute;
+     transform: translateY(10px);
+     font-size: 70%;
+ }
+
+ .box-input-size{
+     display: flex;
+     align-items: center;
+ }
+ .box-input-size label{
+     width: 7%;
+     font-size: 85%;
+ }
+ .box-input-size input[type=text]{
+    font-size: 90%;
+    width: 100%;
+ }
+ .erro-size{
+     margin-left: 5em;
+     display: none;
+ }
+
+ #submit-them{
+     width: 100%;
+     margin-top: 2em;
+ }

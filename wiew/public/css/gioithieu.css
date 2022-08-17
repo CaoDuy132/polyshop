@@ -1,0 +1,96 @@
+.menu-back{
+  display: flex;
+  width: 100%;
+  background-color: #e9ecef;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu-back .content{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 75%;
+  padding: 0.6em 0;
+}
+.menu-back .content a{
+  text-decoration: none;
+  color: black;
+  font-size: 85%;
+  font-family: 'Titillium Web', sans-serif;
+}
+.menu-back .content a:hover{
+  color: #b80a0d;
+  transition: 0.2s;
+}
+.menu-back .content p{
+  margin-bottom: 0;
+  color: rgb(97, 96, 96);
+}
+.menu-back .content span{
+  margin: 0 1em;
+  font-size: 82%;
+  color: rgb(138, 138, 138);
+}
+/* end */
+
+.content-gioithieu{
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  margin: 3em auto;
+}
+
+.content-gioithieu .left{
+  width: 73%;
+  height: 100%;
+  padding-right: 3em;
+  text-align: justify;
+
+}
+.content-gioithieu h1 {
+  font-size: 140%;
+}
+
+.content-gioithieu h2 {
+  font-size: 100%;
+
+}
+.content-gioithieu h3 {
+  font-size: 120%;
+}
+/* end left */
+
+.content-gioithieu .right{
+   width: 24%;
+}
+.content-gioithieu .right .box-tieude{
+   border-bottom: 2px solid #b80a0d;
+   width: 88%;
+   font-family: 'Roboto Condensed', sans-serif;
+
+}
+.content-gioithieu .right ul{
+  padding: 0.8em;
+  margin: 0;
+}
+.content-gioithieu .right ul li{
+  list-style: none;
+  height: 32px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 95%;
+}
+
+.content-gioithieu p{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 95%;
+}
+
+.content-gioithieu .right .box-img{
+  overflow: hidden;
+}
+.content-gioithieu .right .box-img:hover img{
+  transform: scale(1.2); 
+  transition: 1s;
+}
+

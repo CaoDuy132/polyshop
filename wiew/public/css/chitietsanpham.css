@@ -1,0 +1,708 @@
+.menu-back{
+    display: flex;
+    width: 100%;
+    background-color: #e9ecef;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu-back .content{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 75%;
+    padding: 0.6em 0;
+}
+.menu-back .content a{
+    text-decoration: none;
+    color: black;
+    font-size: 85%;
+    font-family: 'Titillium Web', sans-serif;
+}
+.menu-back .content a:hover{
+    color: #b80a0d;
+    transition: 0.2s;
+}
+.menu-back .content p{
+    margin-bottom: 0;
+    color: rgb(97, 96, 96);
+}
+.menu-back .content span{
+    margin: 0 1em;
+    font-size: 82%;
+    color: rgb(138, 138, 138);
+}
+/* end */
+
+.main{
+    width: 75%;
+    display: flex;
+    margin: 3em auto;
+}
+.main .box-left{
+    width: 50%;
+}
+.main .box-left .box-anhdaidien{
+    width: inherit;
+    width: 85%;
+}
+.main .box-left .box-anhdaidien img{
+    width: 100%;
+    height: 700px;
+}
+.main .box-left .box-anhmota{
+    margin-top: 1.5em;
+    width: 100%;
+    display: flex;
+}
+.main .box-left .box-anhmota .item{
+    width: 21.5%;
+    cursor: pointer;
+}
+
+.main .box-left .box-anhmota .item img{
+    width: 85%;
+    height: 140px;
+}
+main .box-left .box-anhmota .item:nth-child(1) img{
+    border: 1px solid rgb(151, 151, 151);
+}
+
+/* slick */
+.slick-list{
+    width: 85%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+/* end left */
+
+.main .box-right{
+    width: 50%;
+}
+.main .box-right .wrapper-top{
+    width: 75%;
+    border-bottom: 1px solid rgb(214, 214, 214);
+    padding-bottom: 0.7em;
+
+
+}
+.main .box-right .tensp h1{
+    font-size: 170%;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 700;
+} 
+
+
+.main .box-right .box-gia{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1.5em;
+}
+
+.main .box-right .gia{
+    display: flex;
+    align-items: center;
+}
+.main .box-right .box-gia .SoLuongSize{
+    font-size: 85%;
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 0;
+
+}
+.main .box-right .gia p{
+    color: #b80a0d;
+    margin-right: 0.7em;
+    margin-bottom: 0;
+} 
+.main .box-right .gia p:nth-child(2){
+    color: silver;
+    font-size: 80%;
+}
+.main .box-right .wrapper-mid{
+    margin-top: 1.5em;
+    border-bottom: 1px solid rgb(214, 214, 214);
+    width: 75%;
+    padding-bottom: 0.7em;
+
+}
+.LuotDanhGia{
+    margin-top: 0.5em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.LuotDanhGia p{
+    margin-bottom: 0;
+    margin-left: 0.5em;
+    font-size: 85%;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+.main .box-right .list-color , .list-size{
+    display: flex;
+    max-width: 45%;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.main .box-right .list-color .item-color , .item-size{
+    margin-right: 0.7em;
+    margin-bottom: 0.6em;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    border: 1px solid rgb(235, 234, 234);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.main .box-right .list-color .item-color:nth-child(1){
+    border: 1px solid black;
+}
+.main .box-right .list-color .item-color span{
+    width: 50%;
+    height: 50%;
+    background-color: black;
+    border-radius: 50%;
+}
+.item-size{
+    font-size: 85%;
+    border: none;
+}
+.wrapper-size{
+    display: flex;
+    justify-content: space-between;
+}
+.wrapper-size .themvaogio-erro{
+    margin-bottom: 0;
+    font-size: 85%;
+    transform: translateY(5px);
+    display: none;
+}
+.tenmau p{
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+    font-size: 85%;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.main .box-right .ChonSoLuong{
+    width: 75%;
+}
+.main .box-right .ChonSoLuong form{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1.5em;
+}
+
+.main .box-right .ChonSoLuong form .themvaogio-erro{
+    margin-bottom: 0;
+    font-size: 85%;
+    margin-left: 5%;
+}
+
+
+.ChonSoLuong form .action{
+    display: flex;
+    align-items: center;
+}
+.ChonSoLuong form  .SoLuongToiDa{
+    font-size: 85%;
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 0;
+}
+.ChonSoLuong form span{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-family: 'Quicksand', sans-serif;
+    border-radius: 50%; 
+
+}
+.ChonSoLuong form span:hover{
+    background-color: #e9ecef;
+    transition: 0.2s;
+    color: rgb(126, 124, 124);
+}
+.ChonSoLuong form input[type=number]{
+    width: 40px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    border: none;
+    outline: none;
+    font-size: 95%;
+    font-weight: 700;
+}
+.ChonSoLuong button{
+    background-color: #e73849;
+    /* margin-top: 2em; */
+    padding: 11px 20px;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    /* margin-left: 3em; */
+    margin-right: 0.5em;
+    margin-top: 2em;
+    color: white;
+    transition: 0.2s;
+    font-size: 85%;
+}
+.ChonSoLuong button:hover{
+    background-color: #dc3545;
+}
+
+.mota{
+    width: 75%;
+}
+.mota .tieude{
+    margin-top: 2em;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    padding: 13px;
+    cursor: pointer;
+    background-color: #f3f3f3;
+    margin-bottom: 1em;
+    border-top: 1px solid rgb(214, 214, 214);
+}
+.mota .tieude h5{
+    font-size: 95%;
+    font-weight: 700;
+    margin-bottom: 0;
+    /* text-decoration: underline; */
+    /* font-family: 'Titillium Web', sans-serif; */
+    font-family: 'Quicksand', sans-serif;
+}
+.mota .tieude i{
+    font-size: 80%;
+    transition: 0.3s;
+    margin-right: 1em;
+}
+.mota .content{
+    padding: 0 1.5em;
+}
+.mota .content p{
+    margin-bottom: 0.5em;
+    font-family: 'Quicksand', sans-serif;
+}
+.mota .content ul{
+    margin-bottom: 0.7em;
+    padding: 0;
+}
+ .mota .content li {
+    font-weight: normal;
+    list-style: none;
+    position: relative;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 85%;
+    text-align: justify;
+}
+.mota .content li::after{
+    position: absolute;
+    content: '-';
+    left: -12px;
+    top: 0;
+    font-weight: 500;
+}
+.mota .content strong {
+    font-weight: 400;
+    position: relative;
+}
+/* end */
+.DanhGiaSP{
+    display: flex;
+    flex-direction: column;
+    margin: 7em auto;
+    width: 75%;
+ 
+}
+.DanhGiaSP .action .show-action-top{
+    outline: none;
+    font-size: 85%;
+    font-weight: 700;
+    padding: 12px 15px ;
+    margin: 0;
+    background-color: #f3f3f3;
+    border: 1px solid rgb(214, 214, 214);
+    border-bottom: none;
+    opacity: 0.5;
+    position: relative;
+    z-index: 100;
+}
+.button-active{
+    font-size: 85%;
+    font-weight: 700;
+    padding: 12px 15px ;
+    outline: none;
+    background-color: white;
+    border: 1px solid rgb(214, 214, 214);
+    border-top: 2px solid black;
+    border-bottom: none;
+    position: relative;
+    z-index: 100;
+}
+
+.DanhGiaSP p , .DanhGiaSP h5{
+    margin-bottom: 0;
+}
+.DanhGiaSP h5{
+    font-size: 100%;
+    /* font-weight: bolder; */
+}
+.DanhGiaSP p , .DanhGiaSP h5:nth-child(1){
+    font-size: 100%;
+    font-weight: 500;
+}
+.DanhGiaSP .sao-action{
+    border: 1px solid rgb(214, 214, 214);
+    margin-top: -1px;
+    padding: 0 3em;
+    
+
+}
+.DanhGiaSP .sao-action .top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    margin-top: 3em;
+    margin-bottom: 2em;
+    padding-bottom: 2em;
+    border-bottom: 1px solid rgb(231, 231, 231) ;
+    opacity: 0.8;
+}
+.DanhGiaSP .sao-action .bot{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 2em;
+}
+.DanhGiaSP .sao-action .bot button{
+    border: none;
+    outline: none;
+    padding: 9px 15px;
+    border-radius: 2px;
+    background-color: #f4f5f7;
+}
+.DanhGiaSP .sao-action .bot button:hover{
+    background-color: #dc3545;
+    transition: 0.2s;
+    color: white;
+}
+.DanhGiaSP .sao-action .noidung{
+    display: flex;
+    align-items: center;
+}
+.DanhGiaSP .sao-action .noidung .list-sao-vote{
+    display: flex;
+    align-items: center;
+    margin-left: 1em;
+}
+.DanhGiaSP .sao-action .noidung .list-sao-vote img{
+    margin-left: 5px;
+    height: 21px;
+    width: 21px;
+    cursor: pointer;
+}
+
+/* end danh gia */
+
+.DanhGiaSP .binhluan-action{
+    width: 100%;
+    border: 1px solid rgb(214, 214, 214);
+    padding: 1.5em 3em;
+    margin-top: -1px;
+    /* background-color: #f4f5f7; */
+    display: none;
+
+}
+.DanhGiaSP .binhluan-action .tieude{
+    margin: 1.5em 0;
+    font-weight: 400;
+    font-size: 95%;
+}
+.binhluan-action .tieude-bot{
+    margin-top: 3em;
+    font-weight: 400;
+    font-size: 95%;
+}
+.binhluan-action .form-binhluan{
+    width: 100%;
+    margin: 2em 0;
+    /* padding: 1.5em; */
+    /* background-color: #f4f5f7; */
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+}
+
+.binhluan-action .form-binhluan .user-binhluan{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+.binhluan-action .form-binhluan .user-binhluan img{
+    height: 100%;
+    width: 100%;
+}
+
+.binhluan-action .form-binhluan form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.binhluan-action .form-binhluan form input[type=text]{
+    height: 60px;
+    background-color: white;
+    padding: 1em;
+    text-indent: 0.7em;
+    width: 100%;
+    outline: none;
+    border: 1px solid rgb(235, 234, 234);
+    /* margin: 1.5em 0; */
+    border-radius: 25px;
+    font-size: 90%;
+}
+
+.binhluan-action .form-binhluan form input[type=submit]{
+    color: white;
+    font-weight: 700;
+    padding: 5px 10px;
+    background-color: rgb(172, 172, 172);
+    outline: none;
+    border: 1px solid rgb(183, 191, 204);
+    border-radius: 3px;
+    transition: 0.2s;
+    display: none;
+}
+
+
+.binhluan-action .content{
+    width: 100%;
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 10px;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2.5em 3em;
+    background-color: white;
+    overflow-y: scroll;
+    max-height: 700px;
+    transition: 0.3s;
+}
+.binhluan-action .content::-webkit-scrollbar{
+    width: 7px;       
+ }
+ .binhluan-action .content::-webkit-scrollbar-thumb{
+    border-radius: 5px;
+    background-color: silver;
+    box-shadow: inset 0 0 5px grey;
+ } 
+ 
+.binhluan-action .content .binhluan-trong{
+    font-size: 90%;
+    font-weight: 400;
+}
+.binhluan-action .content li{
+    list-style: none;
+    
+}
+.binhluan-action .content > ul > li{
+    margin-bottom: 1em;
+    border-bottom: 1px solid rgb(243, 242, 242);
+    padding-bottom: 1em;
+}
+.binhluan-action .content > ul li > ul{
+    margin-left: 3%;
+}
+.binhluan-action .content > ul{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.binhluan-action .content > ul li .item{
+    display: flex;
+    padding: 0.5em 0;
+}
+.binhluan-action .content > ul li .item .box-left{
+    margin-top: 3px;
+    height: 35px;
+    width: 34px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 1%;
+}
+.binhluan-action .content > ul li .item .box-left img{
+    width: 100%;
+    height: 100%;
+}
+
+.binhluan-action .content > ul li .item .box-right p{
+    font-weight: 400;
+    font-size: 90%;
+    font-family: 'Quicksand', sans-serif;
+}
+.binhluan-action .content > ul li .item .box-right .noidung{
+    padding: 10px 20px;
+    /* background-color: #f8f9fa; */
+    border-radius: 15px;
+    position: relative;
+    background-color: #f4f5f7;
+}
+.binhluan-action .content > ul li .item .box-right .box-chinhsua {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    display: none;
+}
+.binhluan-action .content > ul li .item .box-right .box-chinhsua .chinhsua-bl{
+    padding: 7px 5px;
+    outline: none;
+    min-width: 300px;
+    border: none;
+    border-bottom: 1px solid rgb(233, 230, 230);
+    font-size: 95%;
+    text-indent: 1em;
+    font-family: 'Quicksand', sans-serif;
+    margin-right: 5px;
+}
+.binhluan-action .content > ul li .item .box-right .box-chinhsua button{
+    width: 20px;
+    height: 20px;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    background-color: #f8f9fa;
+    color: #c0c1c2;
+    font-size: 60%;
+    transform: translateY(-2px);
+}
+.binhluan-action .content  ul li .item .box-right .noidung .action{
+    position: absolute;
+    bottom: 0%;
+    left: 105%;
+    width: 120px;
+    padding: 10px;
+    box-shadow: 0px 0px 5px rgb(194, 193, 193);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    z-index: 100;
+    background-color: white;
+    display: none;
+}
+.binhluan-action .content  ul li .item .box-right .noidung .action p{
+    margin: 0;
+    padding: 5px 10px;
+    margin: 0;
+    width: 100%;
+    font-weight: 900;
+    cursor: pointer;
+    font-size: 80%;
+}
+.binhluan-action .content  ul li .item .box-right .noidung .action p:hover{
+    background-color: #f7f7f7;
+    transition: 0.2s;
+}
+
+.binhluan-action .content  ul li .item .box-right .noidung:hover > button{
+    display: flex;
+}
+
+.binhluan-action .content > ul li .item .box-right .noidung > button{
+    position: absolute;
+    right: 5px;
+    bottom: 10px;
+    height: 30px;
+    width: 30px;
+    background-color: #f8f9fa;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    display: none;
+    
+}
+.binhluan-action .content > ul li .item .box-right .noidung > button > span{
+    transform: translateY(-5px);
+}
+.binhluan-action .content > ul li .item .box-right .noidung .TenNguoiDung{
+    font-size: 85%;
+    font-weight: 700;
+    font-style: italic  ;
+
+} 
+.binhluan-action .content > ul li .item .box-right .noidung  .NgayBL{
+    font-size: 75%;
+    color: rgb(119, 119, 119);
+}
+
+.binhluan-action .content > ul li .item .box-right .noidung .NoiDungBL{
+    margin-top: 3px;
+    font-size: 95%;
+}
+
+.binhluan-action .content  ul li .item .box-right  .action{
+    display: flex;
+}
+
+.binhluan-action .content  ul li .item .box-right .box-phanhoi{
+    display: none;
+    align-items: center;
+}
+
+.binhluan-action .content  ul li .item .box-right .box-phanhoi button{
+    width: 20px;
+    height: 20px;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    background-color: #f8f9fa;
+    color: #c0c1c2;
+    font-size: 60%;
+    transform: translateY(3px);
+}
+
+
+.binhluan-action .content  ul li .item .box-right .input-phanhoi{
+    margin-top: 7px;
+    padding: 7px 5px;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgb(233, 230, 230);
+    font-size: 80%;
+    text-indent: 1em;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+/* end */
+
+
+
+
+
+
+
+
+

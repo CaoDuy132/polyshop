@@ -1,0 +1,483 @@
+
+.menu-back{
+    display: flex;
+    width: 100%;
+    background-color: #e9ecef;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu-back .content{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 75%;
+    padding: 0.6em 0;
+}
+.menu-back .content a{
+    text-decoration: none;
+    color: black;
+    font-size: 85%;
+    font-family: 'Titillium Web', sans-serif;
+}
+.menu-back .content a:hover{
+    color: #b80a0d;
+    transition: 0.2s;
+}
+.menu-back .content p{
+    margin-bottom: 0;
+    color: rgb(97, 96, 96);
+}
+.menu-back .content span{
+    margin: 0 1em;
+    font-size: 82%;
+    color: rgb(138, 138, 138);
+}
+
+/* end  */
+
+.main{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 4em;
+}
+.main .left{
+    width: 23%;
+}
+.main .left .box-danhmuc{
+    width: 100%;
+    margin-bottom: 1em;
+}
+.main .left .box-danhmuc .title{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 5px;
+    padding-top: 0;
+    border-bottom: 1px solid rgb(235, 235, 235);
+}
+.main .left .box-danhmuc .title h1{
+    font-size: 105%;
+    font-weight: bolder;
+    margin-bottom: 0;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+
+}
+.main .left .box-danhmuc .title i{
+    font-size: 90%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.main .left .box-danhmuc .content{
+    width: 100%;
+    display: none;
+}
+.main .left .box-danhmuc .content a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+}
+.main .left .box-danhmuc .content > ul{
+    margin: 0;
+    padding: 5px 20px;
+}
+.main .left .box-danhmuc .content > ul > li{
+    list-style: none;
+    margin-top: 8px;
+}
+
+.main .left .box-danhmuc .content > ul > li a{
+    font-size: 95%;
+}
+
+.main .left .box-danhmuc .content > ul > li .top{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main .left .box-danhmuc .content > ul > li .top i{
+    cursor: pointer;
+    font-size: 85%;
+    transition: 0.3s;
+    color: rgb(129, 129, 129);
+}
+.main .left .box-danhmuc .content > ul > li .sub-menu{
+    border-left: 1px solid rgb(212, 212, 212);
+    padding: 0 10px;
+    margin: 5px 15px;
+    display: none;
+}
+.main .left .box-danhmuc .content > ul > li .sub-menu li{
+    list-style: none;
+    padding: 2px 0;
+}
+.main .left .box-danhmuc .content > ul > li .sub-menu li a{
+    font-size: 85%;
+    color: rgb(75, 75, 75);
+}
+/* End danh mục 1 */
+
+
+ .box-input-range{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 3em 0;
+    margin-top: 2em;
+    position: relative;
+}
+
+
+.box-input-range input{
+    width: 100%;
+    -webkit-appearance: none;
+    pointer-events: none;
+    border-radius: 15px;
+    outline: none;
+    height: 7px;
+    cursor: pointer;
+    background-color: silver;
+    position: absolute;
+    top: 0;
+    z-index: 5;
+    opacity: 0;
+    
+}
+.box-input-range .box-thumb{
+    width: 91%;
+    height: 5px;
+    border-radius: 15px;
+    background-color: rgb(233, 232, 232);
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.box-input-range .box-thumb .value-input{
+    background-color: rgb(141, 140, 140);
+    position: absolute;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+}
+.box-input-range .box-thumb span{
+    height: 16px;
+    width: 16px;
+    background-color: rgb(94, 94, 94);
+    position: absolute;
+    cursor: pointer;
+    border-radius: 50%;
+    margin: 0 -7px;
+}
+.box-input-range .box-thumb #thumb-left{
+    left: 0%;
+}
+.box-input-range .box-thumb #thumb-right{
+    right: 0%;
+}
+.box-input-range input::-webkit-slider-thumb{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: black;
+    appearance: none;
+    pointer-events: all;
+}
+
+.box-input-range .bot{
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.box-input-range .bot p{
+    margin: 0;
+    font-size: 90%;
+    font-family: 'Quicksand', sans-serif;
+}
+.box-input-range .bot .btn-loc{
+    width: 50px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: rgb(94, 94, 94);
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.box-input-range .bot p span{
+    color: #c03437;
+    margin-left: 3px;
+    font-weight: 700;
+    font-size: 95%;
+}
+/* End giá  */
+
+
+.main .left .box-danhmuc .list-mausac > ul > li{
+    padding: 3px 10px;
+}
+
+/* input color */
+.main .left .box-danhmuc .list-mausac > ul > li input[type=checkbox]{
+    visibility: hidden;
+}
+.main .left .box-danhmuc .list-mausac > ul > li label{
+    cursor: pointer;
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+    font-size: 85%;
+    font-weight: 600;
+}
+
+.main .left .box-danhmuc .list-mausac > ul > li label span{
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    left: -28px;
+    top: 0;
+    opacity: 0.4;
+    border-radius: 5px;
+
+}
+.main .left .box-danhmuc .list-mausac > ul > li input[type=checkbox]:checked + label span{
+    opacity: 1;
+}
+
+.main .left .box-danhmuc .list-mausac > ul > li input[type=checkbox]:checked + label::after{
+    content: '✔';
+    font-size: 100%;
+    font-weight: bolder;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    left: -28px;
+    top: 0;
+    background: transparent;
+    color: white;
+}
+
+/* End color */
+
+
+.main .left .box-danhmuc .list-size > ul > li{
+    padding: 3px 0;
+}
+.main .left .box-danhmuc .list-size > ul > li label{
+    position: relative;
+    cursor: pointer;
+    font-size: 85%;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-content: center;
+}
+.main .left .box-danhmuc .list-size > ul > li label div{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #1b8882;
+    border-radius: 50%;
+    transform: translate(-1px , 1px);
+    margin-right: 7px;
+}
+.main .left .box-danhmuc .list-size > ul > li label div span{
+    width: 8px;
+    height: 8px;
+    background-color: #1b8882;
+    border-radius: 50%;
+    display: flex;
+    margin: auto;
+    display: none;
+}
+.main .left .box-danhmuc .list-size > ul > li input[type=radio]:checked + label div span{
+    display: flex;
+}
+.main .left .box-danhmuc .list-size > ul > li input[type=radio]{
+    width: 14px;
+    height: 14px;
+    transform: translateY(2px);   
+    visibility: hidden;
+    position: absolute;
+}
+
+/* end main left */
+
+.main .right{
+    width:  73%;
+}
+.main .right .top{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.main .right .top p{
+    margin-bottom: 0;
+    margin-right: 1em;
+    font-size: 90%;
+    color: rgb(55, 56, 56);
+}
+.main .right .top select{
+    width: 190px;
+    outline: none;
+    border: 1px solid rgb(219, 219, 219) ;
+    padding: 0.4em 0;
+    text-indent: 0.3em;
+    font-size: 95%;
+}
+.main .right .top select:focus{
+    box-shadow: 0 4px 8px 0 rgba(158, 158, 158, 0.2), 0 6px 10px 0 rgba(151, 151, 151, 0.19);
+}
+
+.main .right .top select option{
+    text-indent: 0.5em;
+    margin-top: 10px;   
+}
+.main .right .top select option:hover{
+    background-color: black;
+}
+.main .right .content{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 2em;
+    position: relative;
+}
+.main .right .content .box-item{
+    width: 31%;
+    margin-bottom: 2.5em;
+
+}
+.main .right .content .box-item a{
+    text-decoration: none;
+    color: black;
+}
+.main .right .content .box-item .box-img{
+    width: 100%;
+    height: 350px;
+    position: relative;
+    overflow: hidden;
+}
+.main .right .content .box-item .box-img img{
+    width: 100%;
+    height: 100%;
+}
+.main .right .content .box-item .box-img .giamgia{
+    position: absolute;
+    right: 5%;
+    top: 4%;
+    padding: 3px 8px;
+    background-color: #b80a0d;
+    color: white;
+    font-weight: 700;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-size: 80%;
+}
+
+.main .right .content .box-item .box-img .action{
+    width: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 35px;
+    top: 100%;
+    /* top: 89%; */
+}
+.main .right .content .box-item:hover  .box-img .action{
+    top: 90%;
+    transition: 0.3s;
+}
+.main .right .content .box-item .box-img .action button{
+    border: none;
+    outline: none;
+    height: 100%;
+    width: 48%;
+    background-color: black;
+    color: white;
+    font-size: 75%;
+    font-weight: 500;
+}
+.main .right .content .box-item .box-text{
+    width: 100%;
+    margin-top: 15px;
+    font-family: 'Quicksand', sans-serif;
+}
+.main .right .content .box-item .box-text p{
+    margin: 0;
+    font-size: 90%;
+}
+.main .right .content .box-item .box-text .tensp{
+    font-weight: 500;
+}
+.main .right .content .box-item .box-text .gia{
+    display: flex;
+    margin-top: 5px;
+}
+.main .right .content .box-item .box-text .gia p:nth-child(1){
+    color: #b80a0d;
+}
+.main .right .content .box-item .box-text .gia .giakm{
+    margin-left: 10px;
+}
+
+.main .right .box-btn{
+    width: 100%;
+    padding: 2em 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main .right .box-btn span{
+    width: 35px;
+    height: 35px;
+    background-color: #e9ecef;
+    color: black;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 100%;
+    transition: 0.3s;
+    border-radius: 2px;
+}
+.main .right .box-btn span:hover{
+    background-color: #ff5c62;
+    color: white;
+}.main .right .box-btn i{
+    font-size: 130%;
+    color: #e9ecef;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.main .right .box-btn i:hover{
+    color: #ff5c62;
+}

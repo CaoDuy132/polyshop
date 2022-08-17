@@ -1,0 +1,117 @@
+.main{
+    width: 100%;
+}
+
+.wrapper{
+    width: 36%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 4em auto;
+}
+.wrapper h1 , .wrapper p{
+    margin-bottom: 0;
+}
+.wrapper .tieude{
+    width: 100%;
+    padding: 0.7em 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.wrapper .tieude h1{
+    font-family:'Quicksand', sans-serif;
+    font-size: 170%;
+
+}
+.wrapper > form{
+    width: 100%;
+}
+
+.wrapper > form > div{
+    width: 100%;
+    margin-bottom: 1.1em;
+}
+.wrapper > form > div .erro{
+    font-size: 90%;
+    margin-top: 3px;
+    display: none;
+    color: red;
+    text-indent: 0.5em;
+}
+.wrapper > form > div input[type=text]{
+    width: 100%;
+    text-indent: 1em;
+    padding: 0.7em 0;
+    border: 1px solid #ecf1f5;
+    outline: none;
+    background-color: #ecf1f5;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 90%;
+    transition: 0.1s;
+}
+.wrapper > form > div input[type=text]:focus{
+    background-color: white;
+}
+
+.box-submit input[type=submit]{
+    padding: 10px 25px;
+    color: white;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    background-color: #b80a0d;
+    transition: 0.1s;
+}
+.box-submit input[type=submit]:hover{
+    background-color: #c50c0f;
+}
+
+.box-input-anhdaidien{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    width: 100%;
+    padding: 0.3em 0;
+    border: 1px solid #e9ecef;
+    text-indent: 1em;
+}
+.box-input-anhdaidien i{
+    font-size: 200%;
+    color: #7e7e7e;
+}
+.box-input-anhdaidien p{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 90%;
+}
+
+.box-maxacnhan{
+    margin-top: 20px;
+}
+.box-maxacnhan p{
+    margin-bottom: 0.5em;
+    font-size: 90%;
+}
+
+.back-page a{
+    display: flex;
+    align-items: center;
+    margin-top: 2em;
+    text-decoration: none;
+    color: black;
+}
+.back-page i{
+    margin-right: 15px;
+    font-size: 80%;
+}
+.back-page p{
+    font-size:  85%;
+}
+#thoigiantontai {
+    font-weight: 600;
+    font-size: 95%;
+    font-family: 'Quicksand', sans-serif;
+    color: #b80a0d;
+}
